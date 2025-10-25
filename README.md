@@ -69,9 +69,9 @@ The following MATLAB toolboxes are required to run the code:
    - `band2.jpg` - Green band
    - `band3.jpg` - Red band
    - `band4.jpg` - Near-Infrared band
-   - `band5.jpg` - Mid-Infrared band (SWIR 1)
+   - `band5.jpg` - Mid-Infrared band (mid-IR 1)
    - `band6.jpg` - Thermal-Infrared band
-   - `band7.jpg` - Mid-Infrared band (SWIR 2)
+   - `band7.jpg` - Mid-Infrared band (mid-IR 2)
 
 3. **Verify file structure**
    
@@ -125,9 +125,9 @@ Landsat Thematic Mapper (TM) is a multispectral sensor that captures data in sev
 | **Band 2** | Green | 0.52 - 0.60 | Visible Green | 30m | Vegetation vigor assessment, green reflectance peak measurement |
 | **Band 3** | Red | 0.63 - 0.69 | Visible Red | 30m | Chlorophyll absorption, vegetation discrimination, urban area identification |
 | **Band 4** | Near-Infrared (NIR) | 0.76 - 0.90 | Near-Infrared | 30m | Biomass estimation, water body delineation, vegetation health monitoring |
-| **Band 5** | Short-wave Infrared 1 (SWIR1) | 1.55 - 1.75 | Mid-Infrared | 30m | Moisture content in soil and vegetation, cloud/snow discrimination |
+| **Band 5** | Short-wave Infrared 1 (mid-IR1) | 1.55 - 1.75 | Mid-Infrared | 30m | Moisture content in soil and vegetation, cloud/snow discrimination |
 | **Band 6** | Thermal Infrared (TIR) | 10.4 - 12.5 | Thermal | 120m* | Surface temperature, thermal mapping, water stress detection |
-| **Band 7** | Short-wave Infrared 2 (SWIR2) | 2.08 - 2.35 | Mid-Infrared | 30m | Mineral and rock discrimination, vegetation moisture content |
+| **Band 7** | Short-wave Infrared 2 (mid-IR2) | 2.08 - 2.35 | Mid-Infrared | 30m | Mineral and rock discrimination, vegetation moisture content |
 
 *Note: Band 6 has a lower spatial resolution (120m for Landsat 4-5 TM) compared to other bands (30m).
 
@@ -140,8 +140,8 @@ Landsat Thematic Mapper (TM) is a multispectral sensor that captures data in sev
 
 #### Infrared Bands (4-5, 7)
 - **Band 4 (NIR)**: Healthy vegetation strongly reflects NIR while water strongly absorbs it. This is the most important band for vegetation studies
-- **Band 5 (SWIR1)**: Sensitive to moisture content in plants and soil. Helps separate clouds from snow
-- **Band 7 (SWIR2)**: Used for mineral and geological mapping, also sensitive to plant moisture
+- **Band 5 (mid-IR1)**: Sensitive to moisture content in plants and soil. Helps separate clouds from snow
+- **Band 7 (mid-IR2)**: Used for mineral and geological mapping, also sensitive to plant moisture
 
 #### Thermal Band (6)
 - **Band 6 (TIR)**: Measures thermal radiation/heat. Used for thermal mapping, identifying water stress in plants, and urban heat island studies
