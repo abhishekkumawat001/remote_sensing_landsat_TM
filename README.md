@@ -36,10 +36,10 @@ This project processes 7-band Landsat TM imagery to perform:
 The following MATLAB toolboxes are required to run the code:
 
 1. **Image Processing Toolbox** - Core toolbox for image manipulation
-   - Functions used: `imread`, `imshow`, `imhist`, `imadjust`, `stretchlim`, `rgb2hsv`, `mat2gray`, `bwboundaries`
+   - Functions used: `imread`, `imshow`, `imhist`, `imadjust`, `stretchlim`, `rgb2hsv`, `mat2gray`, `bwboundaries`, `graythresh`
    
 2. **Statistics and Machine Learning Toolbox** - For PCA analysis
-   - Functions used: `pca`, `graythresh`
+   - Functions used: `pca`
 
 ### Hardware Requirements
 - **RAM**: Minimum 4 GB (8 GB or more recommended for larger images)
@@ -323,9 +323,13 @@ This code demonstrates practical applications in:
 
 ## References
 
-- Landsat 4-5 Thematic Mapper (TM) - NASA/USGS
-- Image Processing Toolbox Documentation - MathWorks
-- Remote Sensing and Image Interpretation - Lillesand, Kiefer & Chipman
+- **Landsat 4-5 Thematic Mapper (TM) Documentation**. NASA/USGS Earth Resources Observation and Science (EROS) Center. Available at: https://www.usgs.gov/landsat-missions/landsat-4-5-thematic-mapper
+
+- **MathWorks Image Processing Toolbox Documentation** (2024). The MathWorks, Inc. Available at: https://www.mathworks.com/help/images/
+
+- Lillesand, T., Kiefer, R. W., & Chipman, J. (2015). *Remote Sensing and Image Interpretation* (7th ed.). John Wiley & Sons.
+
+- Jensen, J. R. (2015). *Introductory Digital Image Processing: A Remote Sensing Perspective* (4th ed.). Pearson Education.
 
 ## License
 
